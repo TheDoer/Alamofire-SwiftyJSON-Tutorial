@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC16783847F552F3B8EA327D /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE1A16A1960C314749FD4F1 /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework */; };
 		F17956CA24C0F0CE00213FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956C924C0F0CE00213FE5 /* AppDelegate.swift */; };
 		F17956CC24C0F0CE00213FE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956CB24C0F0CE00213FE5 /* SceneDelegate.swift */; };
 		F17956CE24C0F0CE00213FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956CD24C0F0CE00213FE5 /* ViewController.swift */; };
 		F17956D124C0F0CE00213FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17956CF24C0F0CE00213FE5 /* Main.storyboard */; };
 		F17956D324C0F0D000213FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17956D224C0F0D000213FE5 /* Assets.xcassets */; };
 		F17956D624C0F0D000213FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17956D424C0F0D000213FE5 /* LaunchScreen.storyboard */; };
+		F17956DE24C0F15200213FE5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956DD24C0F15200213FE5 /* Utils.swift */; };
+		F17956E924C0F21200213FE5 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956E824C0F21200213FE5 /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03F1030D338742ADEAA878F1 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALamorefiire-SwiftyJSON-SkeletonView.release.xcconfig"; path = "Target Support Files/Pods-ALamorefiire-SwiftyJSON-SkeletonView/Pods-ALamorefiire-SwiftyJSON-SkeletonView.release.xcconfig"; sourceTree = "<group>"; };
+		5489424D3ED95D712CDACF97 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALamorefiire-SwiftyJSON-SkeletonView.debug.xcconfig"; path = "Target Support Files/Pods-ALamorefiire-SwiftyJSON-SkeletonView/Pods-ALamorefiire-SwiftyJSON-SkeletonView.debug.xcconfig"; sourceTree = "<group>"; };
+		CAE1A16A1960C314749FD4F1 /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17956C624C0F0CE00213FE5 /* ALamorefiire-SwiftyJSON-SkeletonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALamorefiire-SwiftyJSON-SkeletonView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17956C924C0F0CE00213FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F17956CB24C0F0CE00213FE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		F17956D224C0F0D000213FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F17956D524C0F0D000213FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F17956D724C0F0D000213FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17956DD24C0F15200213FE5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F17956E824C0F21200213FE5 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC16783847F552F3B8EA327D /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4D7B5E068FA596FDB979F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1A16A1960C314749FD4F1 /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F17956BD24C0F0CE00213FE5 = {
 			isa = PBXGroup;
 			children = (
 				F17956C824C0F0CE00213FE5 /* ALamorefiire-SwiftyJSON-SkeletonView */,
 				F17956C724C0F0CE00213FE5 /* Products */,
+				F35AF3685DC5F6D6122B0367 /* Pods */,
+				B4D7B5E068FA596FDB979F46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,67 @@
 		F17956C824C0F0CE00213FE5 /* ALamorefiire-SwiftyJSON-SkeletonView */ = {
 			isa = PBXGroup;
 			children = (
+				F17956E724C0F1F400213FE5 /* Storyboards */,
+				F17956E624C0F1DD00213FE5 /* Models */,
+				F17956E124C0F17400213FE5 /* Utils */,
+				F17956E024C0F16200213FE5 /* Extentions */,
+				F17956DF24C0F15900213FE5 /* ViewControllers */,
 				F17956C924C0F0CE00213FE5 /* AppDelegate.swift */,
 				F17956CB24C0F0CE00213FE5 /* SceneDelegate.swift */,
-				F17956CD24C0F0CE00213FE5 /* ViewController.swift */,
-				F17956CF24C0F0CE00213FE5 /* Main.storyboard */,
 				F17956D224C0F0D000213FE5 /* Assets.xcassets */,
 				F17956D424C0F0D000213FE5 /* LaunchScreen.storyboard */,
 				F17956D724C0F0D000213FE5 /* Info.plist */,
 			);
 			path = "ALamorefiire-SwiftyJSON-SkeletonView";
+			sourceTree = "<group>";
+		};
+		F17956DF24C0F15900213FE5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F17956CD24C0F0CE00213FE5 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F17956E024C0F16200213FE5 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		F17956E124C0F17400213FE5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F17956DD24C0F15200213FE5 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F17956E624C0F1DD00213FE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F17956E824C0F21200213FE5 /* Contacts.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F17956E724C0F1F400213FE5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F17956CF24C0F0CE00213FE5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F35AF3685DC5F6D6122B0367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5489424D3ED95D712CDACF97 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.debug.xcconfig */,
+				03F1030D338742ADEAA878F1 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F17956DA24C0F0D000213FE5 /* Build configuration list for PBXNativeTarget "ALamorefiire-SwiftyJSON-SkeletonView" */;
 			buildPhases = (
+				51A1816809B1A716DBF01527 /* [CP] Check Pods Manifest.lock */,
 				F17956C224C0F0CE00213FE5 /* Sources */,
 				F17956C324C0F0CE00213FE5 /* Frameworks */,
 				F17956C424C0F0CE00213FE5 /* Resources */,
+				1A6EA3AD6CDC670EB1DF1FA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +206,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A6EA3AD6CDC670EB1DF1FA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALamorefiire-SwiftyJSON-SkeletonView/Pods-ALamorefiire-SwiftyJSON-SkeletonView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALamorefiire-SwiftyJSON-SkeletonView/Pods-ALamorefiire-SwiftyJSON-SkeletonView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ALamorefiire-SwiftyJSON-SkeletonView/Pods-ALamorefiire-SwiftyJSON-SkeletonView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A1816809B1A716DBF01527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALamorefiire-SwiftyJSON-SkeletonView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F17956C224C0F0CE00213FE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +256,8 @@
 				F17956CE24C0F0CE00213FE5 /* ViewController.swift in Sources */,
 				F17956CA24C0F0CE00213FE5 /* AppDelegate.swift in Sources */,
 				F17956CC24C0F0CE00213FE5 /* SceneDelegate.swift in Sources */,
+				F17956DE24C0F15200213FE5 /* Utils.swift in Sources */,
+				F17956E924C0F21200213FE5 /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +399,7 @@
 		};
 		F17956DB24C0F0D000213FE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5489424D3ED95D712CDACF97 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +418,7 @@
 		};
 		F17956DC24C0F0D000213FE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F1030D338742ADEAA878F1 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

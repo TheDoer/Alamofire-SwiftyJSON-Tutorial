@@ -1,0 +1,6 @@
+framework module Pods_ALamorefiire_SwiftyJSON_SkeletonView {
+  umbrella header "Pods-ALamorefiire-SwiftyJSON-SkeletonView-umbrella.h"
+
+  export *
+  module * { export * }
+}
