@@ -9,8 +9,8 @@
 import Foundation
 
 
-let API_URL = "http://api.androidhive.info/"
+let API_BASEURL = "http://api.androidhive.info/"
 
-let CONTACTS = API_URL + "contacts/"
+let API_CONTACTS = API_BASEURL+"contacts/"
 
 typealias DownloadComplete = () ->()

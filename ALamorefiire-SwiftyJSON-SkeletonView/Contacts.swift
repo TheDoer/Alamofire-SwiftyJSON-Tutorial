@@ -67,6 +67,15 @@ class Contacts {
         return _mobile
     }
     
+    init(contactDict: JSON) {
+        self._id = contactDict["id"].stringValue
+        self._name = contactDict["name"].stringValue
+        self._address = contactDict["address"].stringValue
+        self._email = contactDict["email"].stringValue
+        self._mobile = contactDict["phone"]["mobile"].stringValue
+        self._gender = contactDict["gender"].string
+    }
+    
    
 }
 

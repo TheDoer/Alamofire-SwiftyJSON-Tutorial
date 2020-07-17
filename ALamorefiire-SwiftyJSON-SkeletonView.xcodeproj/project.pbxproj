@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		EC16783847F552F3B8EA327D /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE1A16A1960C314749FD4F1 /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework */; };
 		F17956CA24C0F0CE00213FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956C924C0F0CE00213FE5 /* AppDelegate.swift */; };
 		F17956CC24C0F0CE00213FE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956CB24C0F0CE00213FE5 /* SceneDelegate.swift */; };
-		F17956CE24C0F0CE00213FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956CD24C0F0CE00213FE5 /* ViewController.swift */; };
+		F17956CE24C0F0CE00213FE5 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956CD24C0F0CE00213FE5 /* ContactsViewController.swift */; };
 		F17956D124C0F0CE00213FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17956CF24C0F0CE00213FE5 /* Main.storyboard */; };
 		F17956D324C0F0D000213FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17956D224C0F0D000213FE5 /* Assets.xcassets */; };
 		F17956D624C0F0D000213FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17956D424C0F0D000213FE5 /* LaunchScreen.storyboard */; };
@@ -25,7 +25,7 @@
 		F17956C624C0F0CE00213FE5 /* ALamorefiire-SwiftyJSON-SkeletonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALamorefiire-SwiftyJSON-SkeletonView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17956C924C0F0CE00213FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F17956CB24C0F0CE00213FE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F17956CD24C0F0CE00213FE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F17956CD24C0F0CE00213FE5 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		F17956D024C0F0CE00213FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F17956D224C0F0D000213FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F17956D524C0F0D000213FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		F17956DF24C0F15900213FE5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F17956CD24C0F0CE00213FE5 /* ViewController.swift */,
+				F17956CD24C0F0CE00213FE5 /* ContactsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -134,7 +134,6 @@
 				5489424D3ED95D712CDACF97 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.debug.xcconfig */,
 				03F1030D338742ADEAA878F1 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -253,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17956CE24C0F0CE00213FE5 /* ViewController.swift in Sources */,
+				F17956CE24C0F0CE00213FE5 /* ContactsViewController.swift in Sources */,
 				F17956CA24C0F0CE00213FE5 /* AppDelegate.swift in Sources */,
 				F17956CC24C0F0CE00213FE5 /* SceneDelegate.swift in Sources */,
 				F17956DE24C0F15200213FE5 /* Utils.swift in Sources */,
