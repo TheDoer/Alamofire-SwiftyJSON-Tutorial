@@ -7,16 +7,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Contacts View Controller-->
+        <!--Contacts-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ContactsViewController" customModule="ALamorefiire_SwiftyJSON_SkeletonView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContactsViewController" id="BYZ-38-t0r" customClass="ContactsViewController" customModule="ALamorefiire_SwiftyJSON_SkeletonView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="x8G-t1-ENs">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="722"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                         </subviews>
@@ -29,23 +29,105 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sbB-3b-azZ"/>
+                    <navigationItem key="navigationItem" title="Contacts" id="sbB-3b-azZ"/>
                     <connections>
                         <outlet property="contactsTableView" destination="x8G-t1-ENs" id="LBY-1k-wH4"/>
+                        <segue destination="x07-cx-EIR" kind="show" identifier="toContactsView" id="XX8-Ld-VNk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="122.54464285714285"/>
+            <point key="canvasLocation" x="1370" y="123"/>
+        </scene>
+        <!--Contacts Details-->
+        <scene sceneID="spE-5C-5xR">
+            <objects>
+                <viewController storyboardIdentifier="ContactDetailsViewController" id="x07-cx-EIR" customClass="ContactDetailsViewController" customModule="ALamorefiire_SwiftyJSON_SkeletonView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fdg-VV-hPu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bmd-eD-KPC">
+                                <rect key="frame" x="15" y="180" width="384" height="602"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-new-contact-100" translatesAutoresizingMaskIntoConstraints="NO" id="dTO-E4-u9X">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="76.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bn4-MN-vgZ">
+                                        <rect key="frame" x="0.0" y="106.5" width="384" height="39.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile Number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PB6-uz-ZOk">
+                                        <rect key="frame" x="0.0" y="176" width="384" height="40"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uey-v6-eFz">
+                                        <rect key="frame" x="0.0" y="246" width="384" height="39.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NX-dK-hSL">
+                                        <rect key="frame" x="0.0" y="315.5" width="384" height="40"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poL-tB-KX1">
+                                        <rect key="frame" x="0.0" y="385.5" width="384" height="39.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF8-bx-dIy">
+                                        <rect key="frame" x="0.0" y="455" width="384" height="147"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <state key="normal" title="Edit Contact">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="YKS-sQ-vPP" firstAttribute="trailing" secondItem="bmd-eD-KPC" secondAttribute="trailing" constant="15" id="5Le-ds-hs2"/>
+                            <constraint firstItem="bmd-eD-KPC" firstAttribute="leading" secondItem="YKS-sQ-vPP" secondAttribute="leading" constant="15" id="JC5-WC-jLe"/>
+                            <constraint firstItem="bmd-eD-KPC" firstAttribute="top" secondItem="YKS-sQ-vPP" secondAttribute="top" constant="40" id="LBx-sV-jMp"/>
+                            <constraint firstItem="YKS-sQ-vPP" firstAttribute="bottom" secondItem="bmd-eD-KPC" secondAttribute="bottom" constant="80" id="gBu-JE-TGr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YKS-sQ-vPP"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contacts Details" id="FCc-C4-YaR"/>
+                    <connections>
+                        <outlet property="AddressLbl" destination="uey-v6-eFz" id="Qyu-jP-Sb9"/>
+                        <outlet property="EmailLbl" destination="7NX-dK-hSL" id="64E-hz-I9T"/>
+                        <outlet property="FullNameLbl" destination="Bn4-MN-vgZ" id="gzB-4x-3Sz"/>
+                        <outlet property="GenderLbl" destination="poL-tB-KX1" id="EVS-D2-gy3"/>
+                        <outlet property="MobileNumberLbl" destination="PB6-uz-ZOk" id="yw3-a0-T6e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bKW-Xb-Q2L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2647.826086956522" y="122.54464285714285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="v3D-L1-dan">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="v7R-gk-CoR" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hNM-k0-rOf">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="hNM-k0-rOf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -57,4 +139,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="122.54464285714285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-new-contact-100" width="50" height="50"/>
+    </resources>
 </document>

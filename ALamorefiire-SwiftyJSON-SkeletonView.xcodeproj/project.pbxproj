@@ -16,6 +16,7 @@
 		F17956D624C0F0D000213FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17956D424C0F0D000213FE5 /* LaunchScreen.storyboard */; };
 		F17956DE24C0F15200213FE5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956DD24C0F15200213FE5 /* Utils.swift */; };
 		F17956E924C0F21200213FE5 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956E824C0F21200213FE5 /* Contacts.swift */; };
+		F17956EB24C127FE00213FE5 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956EA24C127FE00213FE5 /* ContactDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F17956D724C0F0D000213FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F17956DD24C0F15200213FE5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		F17956E824C0F21200213FE5 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		F17956EA24C127FE00213FE5 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				F17956CD24C0F0CE00213FE5 /* ContactsViewController.swift */,
+				F17956EA24C127FE00213FE5 /* ContactDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				F17956CE24C0F0CE00213FE5 /* ContactsViewController.swift in Sources */,
 				F17956CA24C0F0CE00213FE5 /* AppDelegate.swift in Sources */,
+				F17956EB24C127FE00213FE5 /* ContactDetailsViewController.swift in Sources */,
 				F17956CC24C0F0CE00213FE5 /* SceneDelegate.swift in Sources */,
 				F17956DE24C0F15200213FE5 /* Utils.swift in Sources */,
 				F17956E924C0F21200213FE5 /* Contacts.swift in Sources */,

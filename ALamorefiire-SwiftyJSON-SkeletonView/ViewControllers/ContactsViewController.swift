@@ -18,7 +18,6 @@ class ContactsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         contactsTableView.dataSource = self
         contactsTableView.delegate = self
@@ -26,10 +25,9 @@ class ContactsViewController: UIViewController {
         
         self.ContactsAPICalling {
             print("Contacts Downloaded")
+            self.contactsTableView.reloadData()
         }
     }
-    
-    
     
     func ContactsAPICalling(completed: @escaping DownloadComplete){
         
@@ -37,6 +35,8 @@ class ContactsViewController: UIViewController {
             
             let result = contactsResponse.result
             let contactsJSON = JSON(result.value!)["contacts"]
+            
+            print(contactsJSON)
             
             for i in 0..<contactsJSON.count {
                 
@@ -47,40 +47,55 @@ class ContactsViewController: UIViewController {
             
             completed()
        
-            
         }
         
-    
-        
-        
     }
-
+    
 
 }
+
 
 extension ContactsViewController: UITableViewDataSource,UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
        return contacts.count
+        
     }
+    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         contactsTableView.register(UITableViewCell.self, forCellReuseIdentifier: "contactscell")
         
-        var cell = contactsTableView.dequeueReusableCell(withIdentifier: "contactscell", for: indexPath)
+        var cell = contactsTableView.dequeueReusableCell(withIdentifier: "contactscell")
         
         if cell == nil {
-           cell = UITableViewCell(style: .default, reuseIdentifier: "contactscell")
+            cell = UITableViewCell(style: .subtitle, reuseIdentifier: "contactscell")
         }
         
-        cell.textLabel?.text = contacts[indexPath.row].name
+        cell?.textLabel?.text = contacts[indexPath.row].name
+        cell?.detailTextLabel?.text = contacts[indexPath.row].email
         
-        return cell
+        return cell!
+      
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        performSegue(withIdentifier: "toContactsView", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        if let destinationVC = segue.destination as? ContactDetailsViewController {
+            destinationVC.contactDetails = contacts[(contactsTableView.indexPathForSelectedRow?.row)!]
+            contactsTableView.deselectRow(at: contactsTableView.indexPathForSelectedRow!, animated: true)
+            
+        }
     }
     
     
+ 
 }
 

@@ -8,7 +8,6 @@ target 'ALamorefiire-SwiftyJSON-SkeletonView' do
   # Pods for ALamorefiire-SwiftyJSON-SkeletonView
 
   pod 'SwiftyJSON'
-
   pod 'Alamofire', '~> 4.5'
 
 end

@@ -43,6 +43,7 @@ class Contacts {
         
         return _email
     }
+    
     var address:String {
         if _address == nil {
             _address = ""
@@ -76,6 +77,5 @@ class Contacts {
         self._gender = contactDict["gender"].string
     }
     
-   
 }
 
