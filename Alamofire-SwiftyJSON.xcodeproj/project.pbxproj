@@ -59,7 +59,7 @@
 		F17956BD24C0F0CE00213FE5 = {
 			isa = PBXGroup;
 			children = (
-				F17956C824C0F0CE00213FE5 /* Alamorefire-SwiftyJSON */,
+				F17956C824C0F0CE00213FE5 /* Alamofire-SwiftyJSON */,
 				F17956C724C0F0CE00213FE5 /* Products */,
 				F35AF3685DC5F6D6122B0367 /* Pods */,
 				B4D7B5E068FA596FDB979F46 /* Frameworks */,
@@ -74,7 +74,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F17956C824C0F0CE00213FE5 /* Alamorefire-SwiftyJSON */ = {
+		F17956C824C0F0CE00213FE5 /* Alamofire-SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
 				F17956E724C0F1F400213FE5 /* Storyboards */,
@@ -87,7 +87,7 @@
 				F17956D424C0F0D000213FE5 /* LaunchScreen.storyboard */,
 				F17956D724C0F0D000213FE5 /* Info.plist */,
 			);
-			path = "Alamorefire-SwiftyJSON";
+			path = "Alamofire-SwiftyJSON";
 			sourceTree = "<group>";
 		};
 		F17956DF24C0F15900213FE5 /* ViewControllers */ = {
@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F17956C124C0F0CE00213FE5 /* Build configuration list for PBXProject "Alamorefire-SwiftyJSON" */;
+			buildConfigurationList = F17956C124C0F0CE00213FE5 /* Build configuration list for PBXProject "Alamofire-SwiftyJSON" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -433,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F17956C124C0F0CE00213FE5 /* Build configuration list for PBXProject "Alamorefire-SwiftyJSON" */ = {
+		F17956C124C0F0CE00213FE5 /* Build configuration list for PBXProject "Alamofire-SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F17956D824C0F0D000213FE5 /* Debug */,
