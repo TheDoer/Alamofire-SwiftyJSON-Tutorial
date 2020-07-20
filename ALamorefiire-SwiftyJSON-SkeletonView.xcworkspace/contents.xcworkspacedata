@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ALamorefiire-SwiftyJSON-SkeletonView.xcodeproj">
+      location = "group:/Users/adonisrumbwere/Desktop/Dev/ProjectsX/Tutorials/ALamorefiire-SwiftyJSON-SkeletonView/Alamorefire-SwiftyJSON.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

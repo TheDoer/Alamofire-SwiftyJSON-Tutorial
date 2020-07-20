@@ -59,7 +59,7 @@
 		F17956BD24C0F0CE00213FE5 = {
 			isa = PBXGroup;
 			children = (
-				F17956C824C0F0CE00213FE5 /* ALamorefiire-SwiftyJSON-SkeletonView */,
+				F17956C824C0F0CE00213FE5 /* Alamorefire-SwiftyJSON */,
 				F17956C724C0F0CE00213FE5 /* Products */,
 				F35AF3685DC5F6D6122B0367 /* Pods */,
 				B4D7B5E068FA596FDB979F46 /* Frameworks */,
@@ -74,13 +74,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F17956C824C0F0CE00213FE5 /* ALamorefiire-SwiftyJSON-SkeletonView */ = {
+		F17956C824C0F0CE00213FE5 /* Alamorefire-SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
 				F17956E724C0F1F400213FE5 /* Storyboards */,
 				F17956E624C0F1DD00213FE5 /* Models */,
 				F17956E124C0F17400213FE5 /* Utils */,
-				F17956E024C0F16200213FE5 /* Extentions */,
 				F17956DF24C0F15900213FE5 /* ViewControllers */,
 				F17956C924C0F0CE00213FE5 /* AppDelegate.swift */,
 				F17956CB24C0F0CE00213FE5 /* SceneDelegate.swift */,
@@ -88,7 +87,7 @@
 				F17956D424C0F0D000213FE5 /* LaunchScreen.storyboard */,
 				F17956D724C0F0D000213FE5 /* Info.plist */,
 			);
-			path = "ALamorefiire-SwiftyJSON-SkeletonView";
+			path = "Alamorefire-SwiftyJSON";
 			sourceTree = "<group>";
 		};
 		F17956DF24C0F15900213FE5 /* ViewControllers */ = {
@@ -98,13 +97,6 @@
 				F17956EA24C127FE00213FE5 /* ContactDetailsViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		F17956E024C0F16200213FE5 /* Extentions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extentions;
 			sourceTree = "<group>";
 		};
 		F17956E124C0F17400213FE5 /* Utils */ = {
@@ -177,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F17956C124C0F0CE00213FE5 /* Build configuration list for PBXProject "ALamorefiire-SwiftyJSON-SkeletonView" */;
+			buildConfigurationList = F17956C124C0F0CE00213FE5 /* Build configuration list for PBXProject "Alamorefire-SwiftyJSON" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -441,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F17956C124C0F0CE00213FE5 /* Build configuration list for PBXProject "ALamorefiire-SwiftyJSON-SkeletonView" */ = {
+		F17956C124C0F0CE00213FE5 /* Build configuration list for PBXProject "Alamorefire-SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F17956D824C0F0D000213FE5 /* Debug */,
