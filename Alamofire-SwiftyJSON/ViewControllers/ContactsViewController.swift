@@ -66,7 +66,6 @@ extension ContactsViewController: UITableViewDataSource,UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        contactsTableView.register(UITableViewCell.self, forCellReuseIdentifier: "contactscell")
         
         var cell = contactsTableView.dequeueReusableCell(withIdentifier: "contactscell")
         

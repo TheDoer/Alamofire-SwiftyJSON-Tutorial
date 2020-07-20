@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EAAA1AD3A8A1B59AB91319EE40752C6D"
-               BuildableName = "Alamofire.framework"
-               BlueprintName = "Alamofire"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "F17956C524C0F0CE00213FE5"
+               BuildableName = "ALamorefiire-SwiftyJSON-SkeletonView.app"
+               BlueprintName = "ALamorefiire-SwiftyJSON-SkeletonView"
+               ReferencedContainer = "container:Alamofire-SwiftyJSON.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F17956C524C0F0CE00213FE5"
+            BuildableName = "ALamorefiire-SwiftyJSON-SkeletonView.app"
+            BlueprintName = "ALamorefiire-SwiftyJSON-SkeletonView"
+            ReferencedContainer = "container:Alamofire-SwiftyJSON.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,6 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F17956C524C0F0CE00213FE5"
+            BuildableName = "ALamorefiire-SwiftyJSON-SkeletonView.app"
+            BlueprintName = "ALamorefiire-SwiftyJSON-SkeletonView"
+            ReferencedContainer = "container:Alamofire-SwiftyJSON.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

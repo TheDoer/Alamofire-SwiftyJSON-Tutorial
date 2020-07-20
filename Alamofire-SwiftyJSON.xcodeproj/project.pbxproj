@@ -8,22 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		EC16783847F552F3B8EA327D /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE1A16A1960C314749FD4F1 /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework */; };
-		F17956CA24C0F0CE00213FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956C924C0F0CE00213FE5 /* AppDelegate.swift */; };
-		F17956CC24C0F0CE00213FE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956CB24C0F0CE00213FE5 /* SceneDelegate.swift */; };
-		F17956CE24C0F0CE00213FE5 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956CD24C0F0CE00213FE5 /* ContactsViewController.swift */; };
-		F17956D124C0F0CE00213FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17956CF24C0F0CE00213FE5 /* Main.storyboard */; };
-		F17956D324C0F0D000213FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17956D224C0F0D000213FE5 /* Assets.xcassets */; };
-		F17956D624C0F0D000213FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17956D424C0F0D000213FE5 /* LaunchScreen.storyboard */; };
-		F17956DE24C0F15200213FE5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956DD24C0F15200213FE5 /* Utils.swift */; };
-		F17956E924C0F21200213FE5 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956E824C0F21200213FE5 /* Contacts.swift */; };
-		F17956EB24C127FE00213FE5 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956EA24C127FE00213FE5 /* ContactDetailsViewController.swift */; };
+		F1263D1524C5788D00133C78 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956E824C0F21200213FE5 /* Contacts.swift */; };
+		F1263D1624C5788D00133C78 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956DD24C0F15200213FE5 /* Utils.swift */; };
+		F1263D1724C5788D00133C78 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956CD24C0F0CE00213FE5 /* ContactsViewController.swift */; };
+		F1263D1824C5788D00133C78 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956EA24C127FE00213FE5 /* ContactDetailsViewController.swift */; };
+		F1263D1924C5788D00133C78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956C924C0F0CE00213FE5 /* AppDelegate.swift */; };
+		F1263D1A24C5788D00133C78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956CB24C0F0CE00213FE5 /* SceneDelegate.swift */; };
+		F1263D1D24C57EAE00133C78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1ABA4A924C5712C0008343E /* Default-568h@2x.png */; };
+		F1263D1E24C5819400133C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17956CF24C0F0CE00213FE5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03F1030D338742ADEAA878F1 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALamorefiire-SwiftyJSON-SkeletonView.release.xcconfig"; path = "Target Support Files/Pods-ALamorefiire-SwiftyJSON-SkeletonView/Pods-ALamorefiire-SwiftyJSON-SkeletonView.release.xcconfig"; sourceTree = "<group>"; };
 		5489424D3ED95D712CDACF97 /* Pods-ALamorefiire-SwiftyJSON-SkeletonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALamorefiire-SwiftyJSON-SkeletonView.debug.xcconfig"; path = "Target Support Files/Pods-ALamorefiire-SwiftyJSON-SkeletonView/Pods-ALamorefiire-SwiftyJSON-SkeletonView.debug.xcconfig"; sourceTree = "<group>"; };
 		CAE1A16A1960C314749FD4F1 /* Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALamorefiire_SwiftyJSON_SkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F17956C624C0F0CE00213FE5 /* ALamorefiire-SwiftyJSON-SkeletonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALamorefiire-SwiftyJSON-SkeletonView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17956C624C0F0CE00213FE5 /* ALamorefire-SwiftyJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALamorefire-SwiftyJSON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17956C924C0F0CE00213FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F17956CB24C0F0CE00213FE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F17956CD24C0F0CE00213FE5 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		F17956DD24C0F15200213FE5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		F17956E824C0F21200213FE5 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		F17956EA24C127FE00213FE5 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		F1ABA4A924C5712C0008343E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,7 @@
 		F17956BD24C0F0CE00213FE5 = {
 			isa = PBXGroup;
 			children = (
+				F1ABA4A924C5712C0008343E /* Default-568h@2x.png */,
 				F17956C824C0F0CE00213FE5 /* Alamofire-SwiftyJSON */,
 				F17956C724C0F0CE00213FE5 /* Products */,
 				F35AF3685DC5F6D6122B0367 /* Pods */,
@@ -69,7 +70,7 @@
 		F17956C724C0F0CE00213FE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F17956C624C0F0CE00213FE5 /* ALamorefiire-SwiftyJSON-SkeletonView.app */,
+				F17956C624C0F0CE00213FE5 /* ALamorefire-SwiftyJSON.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +152,7 @@
 			);
 			name = "ALamorefiire-SwiftyJSON-SkeletonView";
 			productName = "ALamorefiire-SwiftyJSON-SkeletonView";
-			productReference = F17956C624C0F0CE00213FE5 /* ALamorefiire-SwiftyJSON-SkeletonView.app */;
+			productReference = F17956C624C0F0CE00213FE5 /* ALamorefire-SwiftyJSON.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -192,9 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17956D624C0F0D000213FE5 /* LaunchScreen.storyboard in Resources */,
-				F17956D324C0F0D000213FE5 /* Assets.xcassets in Resources */,
-				F17956D124C0F0CE00213FE5 /* Main.storyboard in Resources */,
+				F1263D1E24C5819400133C78 /* Main.storyboard in Resources */,
+				F1263D1D24C57EAE00133C78 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,12 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17956CE24C0F0CE00213FE5 /* ContactsViewController.swift in Sources */,
-				F17956CA24C0F0CE00213FE5 /* AppDelegate.swift in Sources */,
-				F17956EB24C127FE00213FE5 /* ContactDetailsViewController.swift in Sources */,
-				F17956CC24C0F0CE00213FE5 /* SceneDelegate.swift in Sources */,
-				F17956DE24C0F15200213FE5 /* Utils.swift in Sources */,
-				F17956E924C0F21200213FE5 /* Contacts.swift in Sources */,
+				F1263D1524C5788D00133C78 /* Contacts.swift in Sources */,
+				F1263D1624C5788D00133C78 /* Utils.swift in Sources */,
+				F1263D1724C5788D00133C78 /* ContactsViewController.swift in Sources */,
+				F1263D1824C5788D00133C78 /* ContactDetailsViewController.swift in Sources */,
+				F1263D1924C5788D00133C78 /* AppDelegate.swift in Sources */,
+				F1263D1A24C5788D00133C78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,13 +399,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Z6ZC6JCHL;
-				INFOPLIST_FILE = "ALamorefiire-SwiftyJSON-SkeletonView/Info.plist";
+				INFOPLIST_FILE = "ALamofire-SwiftyJSON/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.zw.onynx.ALamorefiire-SwiftyJSON-SkeletonView";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.zw.onynx.ALamorefire-SwiftyJSON";
+				PRODUCT_NAME = "ALamorefire-SwiftyJSON";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -418,13 +418,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Z6ZC6JCHL;
-				INFOPLIST_FILE = "ALamorefiire-SwiftyJSON-SkeletonView/Info.plist";
+				INFOPLIST_FILE = "ALamofire-SwiftyJSON/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.zw.onynx.ALamorefiire-SwiftyJSON-SkeletonView";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.zw.onynx.ALamorefire-SwiftyJSON";
+				PRODUCT_NAME = "ALamorefire-SwiftyJSON";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
